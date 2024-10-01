@@ -77,8 +77,7 @@ def criar_usuario():
     # Armazenando o usuário no dicionário
     usuarios[cpf] = {
         "nome": nome,
-        "data_nasc": data_nasc,
-        "endereco": endereco
+        "data_nasc": data_nasc
     }
     print(f"Usuário {nome} cadastrado com sucesso!")
 
@@ -126,7 +125,7 @@ def listar_contas():
     else:
         print("\n===== LISTA DE CONTAS =====")
         for numero, conta in contas.items():
-            print(f"Conta {numero} - Usuário: {conta['usuario']['nome']}")
+            print(f"==================\n\nAgência: {conta['agencia']}\nNúmero da Conta: {conta['numero_conta']}\nTitular: {conta['usuario']['nome']}\n\n==================\n")
         print("===========================")
 
 
