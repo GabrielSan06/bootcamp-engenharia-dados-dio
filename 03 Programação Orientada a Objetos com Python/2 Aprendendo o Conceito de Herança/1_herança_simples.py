@@ -4,7 +4,7 @@ class Veiculo:
         self.placa = placa
         self.numero_rodas = numero_rodas
     
-    def ligar motor(self):
+    def ligar_motor(self):
         print("Ligando motor...")
 
 class Motocicleta(Veiculo):
