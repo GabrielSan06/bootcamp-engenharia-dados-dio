@@ -1,3 +1,5 @@
+from abc import abc
+
 class Cliente:
     def __init__(self, endereco):
         self._endereco = endereco
@@ -8,6 +10,7 @@ class Cliente:
 
     def adicionar_conta():
         pass
+
 
 class PessoaFisica(Cliente):
     def __init__(self, cpf, nome, data_nasc, endereco):
@@ -25,9 +28,19 @@ class Conta:
         self._cliente = cliente
         self._historico = Historico()
 
+    @property
     def saldo():
         pass
+
+    @property
+    def numero():
+        pass 
     
+    @property
+    def agencia():
+        pass
+    
+    @property
     def nova_conta():
         pass
     
