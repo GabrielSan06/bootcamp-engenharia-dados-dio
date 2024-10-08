@@ -80,12 +80,15 @@ class Conta:
         # Verificação
         if excedeu_saldo:
             print("Operação falhou! Você não tem saldo suficiente.")
+        
         elif valor > 0:
             self._saldo -= valor
             print("Saque realizado com sucesso!")
+
         else:
             print("Operação falhou! O valor informado é inválido.")
-            # return True
+            
+        
             
     def depositar(self, valor):
         pass
