@@ -40,12 +40,12 @@ class ControleArCondicionado(ControleRemoto):
 
 
 
-controle1 = ControleTV()
-print(controle1.ligar())
-print(controole1.desligar())
-print(controole1.marca())
+controle_1 = ControleTV()
+print(controle_1.ligar())
+print(controle_1.desligar())
+print(controle_1.marca())
 
-controle2 = ControleArCondicionado()
-print(controle2.ligar())
-print(controole2.desligar())
-print(controole2.marca())
+controle_2 = ControleArCondicionado()
+print(controle_2.ligar())
+print(controle_2.desligar())
+print(controle_2.marca())
